@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Python cache
+.mypy_cache/
+
+# Build files
+dist/
+build/
+
+# Chroma database
+database/chroma_db/
+
+# Uploaded files
+data/uploads/
+
+# Processed documents
+data/processed/
