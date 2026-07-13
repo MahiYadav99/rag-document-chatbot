@@ -1,3 +1,28 @@
+# ===========================
+# RAG Document Chatbot
+# Python 3.12+
+# ===========================
+
+# Environment Variables
 python-dotenv==1.2.2
-pip install langchain langchain-community pypdf
-Collecting langchain
+
+# Google Gemini
+google-genai==1.31.0
+
+# LangChain Core
+langchain==1.3.11
+langchain-core==1.4.8
+langchain-community==0.4.2
+langchain-text-splitters==1.0.0
+
+# Hugging Face Embeddings
+langchain-huggingface==1.0.0
+sentence-transformers==5.1.0
+huggingface-hub==0.34.4
+
+# Vector Database
+langchain-chroma==1.0.0
+chromadb==1.0.20
+
+# PDF Loader
+pypdf==6.0.0
