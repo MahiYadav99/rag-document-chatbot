@@ -16,6 +16,10 @@ def create_vector_database(
 
     if not documents:
         raise ValueError("No documents were provided.")
+    
+   # Creates or updates a Chroma database at the given path.
+   #If the directory already contains a Chroma collection,
+   #new documents may be added to the existing collection.
 
     database_path = Path(database_path)
     database_path.mkdir(parents=True, exist_ok=True)
