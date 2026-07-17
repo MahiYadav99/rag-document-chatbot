@@ -72,8 +72,7 @@ class ConversationMemory:
         self,
     ) -> list[ChatMessage]:
 
-        return self.messages
-
+        return self.messages.copy()
     def clear(
         self,
     ) -> None:
